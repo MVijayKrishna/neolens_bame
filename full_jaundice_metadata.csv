@@ -1,0 +1,221 @@
+Image_ID,File_Path,Ethnicity,Condition,Region,Feeding_Pattern,Sleeping_Pattern,Stooling_Pattern,Urine_Color,Skin_Color,Eye_Color,Notes
+asian_jaundiced_eyes_1,asian/jaundiced/eyes/1.jpg,Asian,Jaundiced,Eyes,Frequent,Lethargic,Watery,Brownish,Normal,Slight,No obvious symptoms noted.
+asian_jaundiced_eyes_2,asian/jaundiced/eyes/2.jpg,Asian,Jaundiced,Eyes,Irregular,Lethargic,Dry,Clear,Subtle Tint,Obvious,"Feeding irregular, observe carefully."
+asian_jaundiced_eyes_3,asian/jaundiced/eyes/3.jpg,Asian,Jaundiced,Eyes,Irregular,Restless,Dry,Clear,Obvious,Normal,Mild yellowing observed in sclera.
+asian_jaundiced_eyes_4,asian/jaundiced/eyes/4.jpg,Asian,Jaundiced,Eyes,Frequent,Drowsy,Dry,Brownish,Obvious,Obvious,Mild yellowing observed in sclera.
+asian_jaundiced_eyes_5,asian/jaundiced/eyes/5.jpg,Asian,Jaundiced,Eyes,Normal,Drowsy,Dry,Dark Yellow,Yellow Tint,Slight,Signs of typical physiological jaundice.
+asian_jaundiced_feet_1,asian/jaundiced/feet/1.jpg,Asian,Jaundiced,Feet,Poor,Drowsy,Pale,Yellow,Subtle Tint,Slight,Signs of typical physiological jaundice.
+asian_jaundiced_feet_2,asian/jaundiced/feet/2.jpg,Asian,Jaundiced,Feet,Frequent,Lethargic,Pale,Brownish,Obvious,Normal,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_feet_3,asian/jaundiced/feet/3.jpg,Asian,Jaundiced,Feet,Normal,Normal,Watery,Clear,Normal,Yellowing,Signs of typical physiological jaundice.
+asian_jaundiced_feet_4,asian/jaundiced/feet/4.jpg,Asian,Jaundiced,Feet,Poor,Lethargic,Pale,Yellow,Normal,Slight,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_feet_5,asian/jaundiced/feet/5.jpg,Asian,Jaundiced,Feet,Irregular,Restless,Pale,Brownish,Obvious,Yellowing,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_gums_1,asian/jaundiced/gums/1.jpg,Asian,Jaundiced,Gums,Frequent,Drowsy,Watery,Clear,Obvious,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_gums_2,asian/jaundiced/gums/2.jpg,Asian,Jaundiced,Gums,Irregular,Normal,Dry,Yellow,Yellow Tint,Yellowing,No obvious symptoms noted.
+asian_jaundiced_gums_3,asian/jaundiced/gums/3.jpg,Asian,Jaundiced,Gums,Irregular,Restless,Pale,Yellow,Normal,Slight,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_gums_4,asian/jaundiced/gums/4.jpg,Asian,Jaundiced,Gums,Frequent,Restless,Pale,Clear,Subtle Tint,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_gums_5,asian/jaundiced/gums/5.jpg,Asian,Jaundiced,Gums,Poor,Restless,Dry,Brownish,Subtle Tint,Slight,"Feeding irregular, observe carefully."
+asian_jaundiced_palm_1,asian/jaundiced/palm/1.jpg,Asian,Jaundiced,Palm,Frequent,Drowsy,Watery,Clear,Subtle Tint,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_palm_2,asian/jaundiced/palm/2.jpg,Asian,Jaundiced,Palm,Poor,Restless,Pale,Dark Yellow,Obvious,Slight,No obvious symptoms noted.
+asian_jaundiced_palm_3,asian/jaundiced/palm/3.jpg,Asian,Jaundiced,Palm,Normal,Drowsy,Pale,Brownish,Normal,Slight,No obvious symptoms noted.
+asian_jaundiced_palm_4,asian/jaundiced/palm/4.jpg,Asian,Jaundiced,Palm,Normal,Drowsy,Dry,Yellow,Yellow Tint,Yellowing,No obvious symptoms noted.
+asian_jaundiced_palm_5,asian/jaundiced/palm/5.jpg,Asian,Jaundiced,Palm,Normal,Drowsy,Pale,Dark Yellow,Yellow Tint,Slight,"Feeding irregular, observe carefully."
+asian_jaundiced_scalp_1,asian/jaundiced/scalp/1.jpg,Asian,Jaundiced,Scalp,Poor,Restless,Pale,Brownish,Yellow Tint,Normal,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_scalp_2,asian/jaundiced/scalp/2.jpg,Asian,Jaundiced,Scalp,Irregular,Normal,Watery,Clear,Obvious,Slight,Signs of typical physiological jaundice.
+asian_jaundiced_scalp_3,asian/jaundiced/scalp/3.jpg,Asian,Jaundiced,Scalp,Irregular,Drowsy,Watery,Clear,Yellow Tint,Yellowing,Mild yellowing observed in sclera.
+asian_jaundiced_scalp_4,asian/jaundiced/scalp/4.jpg,Asian,Jaundiced,Scalp,Normal,Restless,Pale,Dark Yellow,Normal,Yellowing,Mild yellowing observed in sclera.
+asian_jaundiced_scalp_5,asian/jaundiced/scalp/5.jpg,Asian,Jaundiced,Scalp,Irregular,Lethargic,Dry,Yellow,Yellow Tint,Yellowing,Signs of typical physiological jaundice.
+asian_jaundiced_skin_1,asian/jaundiced/skin/1.jpg,Asian,Jaundiced,Skin,Poor,Restless,Dry,Dark Yellow,Subtle Tint,Yellowing,Mild yellowing observed in sclera.
+asian_jaundiced_skin_2,asian/jaundiced/skin/2.jpg,Asian,Jaundiced,Skin,Poor,Lethargic,Watery,Brownish,Normal,Obvious,"Feeding irregular, observe carefully."
+asian_jaundiced_skin_3,asian/jaundiced/skin/3.jpg,Asian,Jaundiced,Skin,Normal,Drowsy,Normal,Brownish,Obvious,Normal,No obvious symptoms noted.
+asian_jaundiced_skin_4,asian/jaundiced/skin/4.jpg,Asian,Jaundiced,Skin,Irregular,Restless,Pale,Dark Yellow,Obvious,Obvious,Signs of typical physiological jaundice.
+asian_jaundiced_skin_5,asian/jaundiced/skin/5.jpg,Asian,Jaundiced,Skin,Irregular,Normal,Normal,Clear,Obvious,Obvious,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_stool_samples_1,asian/jaundiced/stool_samples/1.jpg,Asian,Jaundiced,Stool samples,Poor,Restless,Watery,Yellow,Normal,Slight,"Feeding irregular, observe carefully."
+asian_jaundiced_stool_samples_2,asian/jaundiced/stool_samples/2.jpg,Asian,Jaundiced,Stool samples,Poor,Lethargic,Dry,Dark Yellow,Normal,Slight,Signs of typical physiological jaundice.
+asian_jaundiced_stool_samples_3,asian/jaundiced/stool_samples/3.jpg,Asian,Jaundiced,Stool samples,Frequent,Lethargic,Dry,Brownish,Yellow Tint,Yellowing,No obvious symptoms noted.
+asian_jaundiced_stool_samples_4,asian/jaundiced/stool_samples/4.jpg,Asian,Jaundiced,Stool samples,Normal,Normal,Dry,Clear,Normal,Slight,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_stool_samples_5,asian/jaundiced/stool_samples/5.jpg,Asian,Jaundiced,Stool samples,Normal,Normal,Watery,Brownish,Normal,Yellowing,No obvious symptoms noted.
+asian_jaundiced_tongue_1,asian/jaundiced/tongue/1.jpg,Asian,Jaundiced,Tongue,Frequent,Lethargic,Dry,Clear,Obvious,Yellowing,Mild yellowing observed in sclera.
+asian_jaundiced_tongue_2,asian/jaundiced/tongue/2.jpg,Asian,Jaundiced,Tongue,Irregular,Normal,Normal,Yellow,Obvious,Yellowing,"Feeding irregular, observe carefully."
+asian_jaundiced_tongue_3,asian/jaundiced/tongue/3.jpg,Asian,Jaundiced,Tongue,Poor,Lethargic,Watery,Clear,Obvious,Normal,No obvious symptoms noted.
+asian_jaundiced_tongue_4,asian/jaundiced/tongue/4.jpg,Asian,Jaundiced,Tongue,Frequent,Drowsy,Watery,Dark Yellow,Subtle Tint,Yellowing,Mild yellowing observed in sclera.
+asian_jaundiced_tongue_5,asian/jaundiced/tongue/5.jpg,Asian,Jaundiced,Tongue,Normal,Normal,Dry,Clear,Normal,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_urine_1,asian/jaundiced/urine/1.jpg,Asian,Jaundiced,Urine,Frequent,Restless,Pale,Dark Yellow,Obvious,Slight,Mild yellowing observed in sclera.
+asian_jaundiced_urine_2,asian/jaundiced/urine/2.jpg,Asian,Jaundiced,Urine,Frequent,Drowsy,Watery,Brownish,Subtle Tint,Normal,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_urine_3,asian/jaundiced/urine/3.jpg,Asian,Jaundiced,Urine,Normal,Lethargic,Dry,Brownish,Normal,Obvious,"Feeding irregular, observe carefully."
+asian_jaundiced_urine_4,asian/jaundiced/urine/4.jpg,Asian,Jaundiced,Urine,Poor,Lethargic,Normal,Clear,Obvious,Obvious,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_urine_5,asian/jaundiced/urine/5.jpg,Asian,Jaundiced,Urine,Poor,Restless,Normal,Clear,Yellow Tint,Normal,No obvious symptoms noted.
+asian_jaundiced_urine_diapers_1,asian/jaundiced/urine_diapers/1.jpg,Asian,Jaundiced,Urine diapers,Normal,Lethargic,Pale,Brownish,Subtle Tint,Yellowing,"Feeding irregular, observe carefully."
+asian_jaundiced_urine_diapers_2,asian/jaundiced/urine_diapers/2.jpg,Asian,Jaundiced,Urine diapers,Irregular,Lethargic,Normal,Clear,Obvious,Obvious,Pale stool and yellow urine — refer for further check.
+asian_jaundiced_urine_diapers_3,asian/jaundiced/urine_diapers/3.jpg,Asian,Jaundiced,Urine diapers,Frequent,Restless,Normal,Yellow,Subtle Tint,Yellowing,"Feeding irregular, observe carefully."
+asian_jaundiced_urine_diapers_4,asian/jaundiced/urine_diapers/4.jpg,Asian,Jaundiced,Urine diapers,Irregular,Drowsy,Watery,Brownish,Obvious,Obvious,"Feeding irregular, observe carefully."
+asian_jaundiced_urine_diapers_5,asian/jaundiced/urine_diapers/5.jpg,Asian,Jaundiced,Urine diapers,Poor,Normal,Normal,Yellow,Normal,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_whole_body_1,asian/jaundiced/whole_body/1.jpg,Asian,Jaundiced,Whole body,Normal,Normal,Dry,Yellow,Obvious,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_whole_body_2,asian/jaundiced/whole_body/2.jpg,Asian,Jaundiced,Whole body,Frequent,Restless,Pale,Dark Yellow,Normal,Slight,Mild yellowing observed in sclera.
+asian_jaundiced_whole_body_3,asian/jaundiced/whole_body/3.jpg,Asian,Jaundiced,Whole body,Poor,Drowsy,Pale,Brownish,Yellow Tint,Slight,No obvious symptoms noted.
+asian_jaundiced_whole_body_4,asian/jaundiced/whole_body/4.jpg,Asian,Jaundiced,Whole body,Normal,Restless,Dry,Dark Yellow,Normal,Normal,"Feeding irregular, observe carefully."
+asian_jaundiced_whole_body_5,asian/jaundiced/whole_body/5.jpg,Asian,Jaundiced,Whole body,Poor,Restless,Watery,Dark Yellow,Yellow Tint,Slight,No obvious symptoms noted.
+asian_normal_eyes_1,asian/normal/eyes/1.jpg,Asian,Normal,Eyes,Poor,Normal,Watery,Clear,Obvious,Slight,No obvious symptoms noted.
+asian_normal_eyes_2,asian/normal/eyes/2.jpg,Asian,Normal,Eyes,Frequent,Restless,Pale,Dark Yellow,Yellow Tint,Normal,"Feeding irregular, observe carefully."
+asian_normal_eyes_3,asian/normal/eyes/3.jpg,Asian,Normal,Eyes,Poor,Drowsy,Dry,Brownish,Subtle Tint,Obvious,No obvious symptoms noted.
+asian_normal_eyes_4,asian/normal/eyes/4.jpg,Asian,Normal,Eyes,Irregular,Lethargic,Dry,Clear,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+asian_normal_eyes_5,asian/normal/eyes/5.jpg,Asian,Normal,Eyes,Poor,Restless,Watery,Yellow,Yellow Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+asian_normal_feet_1,asian/normal/feet/1.jpg,Asian,Normal,Feet,Normal,Drowsy,Normal,Dark Yellow,Yellow Tint,Yellowing,No obvious symptoms noted.
+asian_normal_feet_2,asian/normal/feet/2.jpg,Asian,Normal,Feet,Irregular,Restless,Normal,Yellow,Normal,Obvious,No obvious symptoms noted.
+asian_normal_feet_3,asian/normal/feet/3.jpg,Asian,Normal,Feet,Poor,Normal,Normal,Clear,Normal,Yellowing,No obvious symptoms noted.
+asian_normal_feet_4,asian/normal/feet/4.jpg,Asian,Normal,Feet,Poor,Lethargic,Normal,Brownish,Subtle Tint,Slight,Pale stool and yellow urine — refer for further check.
+asian_normal_feet_5,asian/normal/feet/5.jpg,Asian,Normal,Feet,Irregular,Restless,Normal,Clear,Normal,Yellowing,Mild yellowing observed in sclera.
+asian_normal_gums_1,asian/normal/gums/1.jpg,Asian,Normal,Gums,Poor,Normal,Watery,Brownish,Yellow Tint,Obvious,No obvious symptoms noted.
+asian_normal_gums_2,asian/normal/gums/2.jpg,Asian,Normal,Gums,Frequent,Drowsy,Pale,Brownish,Subtle Tint,Normal,Signs of typical physiological jaundice.
+asian_normal_gums_3,asian/normal/gums/3.jpg,Asian,Normal,Gums,Frequent,Lethargic,Watery,Yellow,Yellow Tint,Obvious,Mild yellowing observed in sclera.
+asian_normal_gums_4,asian/normal/gums/4.jpg,Asian,Normal,Gums,Normal,Drowsy,Dry,Brownish,Obvious,Obvious,No obvious symptoms noted.
+asian_normal_gums_5,asian/normal/gums/5.jpg,Asian,Normal,Gums,Normal,Restless,Normal,Clear,Subtle Tint,Normal,No obvious symptoms noted.
+asian_normal_palm_1,asian/normal/palm/1.jpg,Asian,Normal,Palm,Irregular,Lethargic,Pale,Yellow,Obvious,Normal,Mild yellowing observed in sclera.
+asian_normal_palm_2,asian/normal/palm/2.jpg,Asian,Normal,Palm,Irregular,Normal,Dry,Clear,Obvious,Yellowing,Signs of typical physiological jaundice.
+asian_normal_palm_3,asian/normal/palm/3.jpg,Asian,Normal,Palm,Poor,Restless,Watery,Brownish,Yellow Tint,Slight,No obvious symptoms noted.
+asian_normal_palm_4,asian/normal/palm/4.jpg,Asian,Normal,Palm,Poor,Lethargic,Normal,Yellow,Subtle Tint,Obvious,Signs of typical physiological jaundice.
+asian_normal_palm_5,asian/normal/palm/5.jpg,Asian,Normal,Palm,Irregular,Normal,Watery,Brownish,Yellow Tint,Normal,Mild yellowing observed in sclera.
+asian_normal_scalp_1,asian/normal/scalp/1.jpg,Asian,Normal,Scalp,Irregular,Restless,Normal,Yellow,Yellow Tint,Slight,No obvious symptoms noted.
+asian_normal_scalp_2,asian/normal/scalp/2.jpg,Asian,Normal,Scalp,Frequent,Restless,Watery,Yellow,Yellow Tint,Slight,"Feeding irregular, observe carefully."
+asian_normal_scalp_3,asian/normal/scalp/3.jpg,Asian,Normal,Scalp,Frequent,Restless,Normal,Brownish,Normal,Slight,Pale stool and yellow urine — refer for further check.
+asian_normal_scalp_4,asian/normal/scalp/4.jpg,Asian,Normal,Scalp,Poor,Restless,Pale,Brownish,Yellow Tint,Slight,"Feeding irregular, observe carefully."
+asian_normal_scalp_5,asian/normal/scalp/5.jpg,Asian,Normal,Scalp,Irregular,Drowsy,Normal,Yellow,Yellow Tint,Slight,Signs of typical physiological jaundice.
+asian_normal_skin_1,asian/normal/skin/1.jpg,Asian,Normal,Skin,Frequent,Lethargic,Dry,Dark Yellow,Obvious,Slight,Pale stool and yellow urine — refer for further check.
+asian_normal_skin_2,asian/normal/skin/2.jpg,Asian,Normal,Skin,Frequent,Lethargic,Pale,Clear,Yellow Tint,Slight,Signs of typical physiological jaundice.
+asian_normal_skin_3,asian/normal/skin/3.jpg,Asian,Normal,Skin,Normal,Drowsy,Normal,Yellow,Obvious,Obvious,"Feeding irregular, observe carefully."
+asian_normal_skin_4,asian/normal/skin/4.jpg,Asian,Normal,Skin,Frequent,Lethargic,Normal,Yellow,Yellow Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+asian_normal_skin_5,asian/normal/skin/5.jpg,Asian,Normal,Skin,Irregular,Drowsy,Watery,Brownish,Subtle Tint,Normal,Pale stool and yellow urine — refer for further check.
+asian_normal_stool_samples_1,asian/normal/stool_samples/1.jpg,Asian,Normal,Stool samples,Irregular,Normal,Normal,Brownish,Obvious,Yellowing,Pale stool and yellow urine — refer for further check.
+asian_normal_stool_samples_2,asian/normal/stool_samples/2.jpg,Asian,Normal,Stool samples,Irregular,Normal,Pale,Brownish,Yellow Tint,Yellowing,Mild yellowing observed in sclera.
+asian_normal_stool_samples_3,asian/normal/stool_samples/3.jpg,Asian,Normal,Stool samples,Poor,Lethargic,Normal,Clear,Subtle Tint,Obvious,No obvious symptoms noted.
+asian_normal_stool_samples_4,asian/normal/stool_samples/4.jpg,Asian,Normal,Stool samples,Normal,Restless,Dry,Yellow,Normal,Slight,No obvious symptoms noted.
+asian_normal_stool_samples_5,asian/normal/stool_samples/5.jpg,Asian,Normal,Stool samples,Poor,Normal,Normal,Brownish,Normal,Normal,Signs of typical physiological jaundice.
+asian_normal_tongue_1,asian/normal/tongue/1.jpg,Asian,Normal,Tongue,Normal,Drowsy,Dry,Clear,Normal,Obvious,Pale stool and yellow urine — refer for further check.
+asian_normal_tongue_2,asian/normal/tongue/2.jpg,Asian,Normal,Tongue,Irregular,Normal,Watery,Clear,Normal,Yellowing,No obvious symptoms noted.
+asian_normal_tongue_3,asian/normal/tongue/3.jpg,Asian,Normal,Tongue,Irregular,Normal,Pale,Clear,Yellow Tint,Normal,Signs of typical physiological jaundice.
+asian_normal_tongue_4,asian/normal/tongue/4.jpg,Asian,Normal,Tongue,Normal,Normal,Pale,Yellow,Subtle Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+asian_normal_tongue_5,asian/normal/tongue/5.jpg,Asian,Normal,Tongue,Normal,Restless,Normal,Brownish,Obvious,Yellowing,Signs of typical physiological jaundice.
+asian_normal_urine_1,asian/normal/urine/1.jpg,Asian,Normal,Urine,Frequent,Restless,Watery,Clear,Obvious,Obvious,Pale stool and yellow urine — refer for further check.
+asian_normal_urine_2,asian/normal/urine/2.jpg,Asian,Normal,Urine,Irregular,Lethargic,Pale,Brownish,Yellow Tint,Obvious,Mild yellowing observed in sclera.
+asian_normal_urine_3,asian/normal/urine/3.jpg,Asian,Normal,Urine,Frequent,Lethargic,Watery,Brownish,Normal,Normal,"Feeding irregular, observe carefully."
+asian_normal_urine_4,asian/normal/urine/4.jpg,Asian,Normal,Urine,Poor,Drowsy,Dry,Brownish,Yellow Tint,Obvious,No obvious symptoms noted.
+asian_normal_urine_5,asian/normal/urine/5.jpg,Asian,Normal,Urine,Irregular,Normal,Watery,Clear,Subtle Tint,Normal,Pale stool and yellow urine — refer for further check.
+asian_normal_urine_diapers_1,asian/normal/urine_diapers/1.jpg,Asian,Normal,Urine diapers,Irregular,Restless,Dry,Clear,Obvious,Normal,"Feeding irregular, observe carefully."
+asian_normal_urine_diapers_2,asian/normal/urine_diapers/2.jpg,Asian,Normal,Urine diapers,Irregular,Normal,Pale,Brownish,Obvious,Obvious,Signs of typical physiological jaundice.
+asian_normal_urine_diapers_3,asian/normal/urine_diapers/3.jpg,Asian,Normal,Urine diapers,Normal,Normal,Watery,Dark Yellow,Subtle Tint,Slight,"Feeding irregular, observe carefully."
+asian_normal_urine_diapers_4,asian/normal/urine_diapers/4.jpg,Asian,Normal,Urine diapers,Poor,Restless,Pale,Clear,Normal,Slight,"Feeding irregular, observe carefully."
+asian_normal_urine_diapers_5,asian/normal/urine_diapers/5.jpg,Asian,Normal,Urine diapers,Normal,Drowsy,Watery,Dark Yellow,Subtle Tint,Yellowing,"Feeding irregular, observe carefully."
+asian_normal_whole_body_1,asian/normal/whole_body/1.jpg,Asian,Normal,Whole body,Poor,Drowsy,Dry,Brownish,Yellow Tint,Slight,Pale stool and yellow urine — refer for further check.
+asian_normal_whole_body_2,asian/normal/whole_body/2.jpg,Asian,Normal,Whole body,Poor,Lethargic,Dry,Brownish,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+asian_normal_whole_body_3,asian/normal/whole_body/3.jpg,Asian,Normal,Whole body,Irregular,Lethargic,Watery,Dark Yellow,Yellow Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+asian_normal_whole_body_4,asian/normal/whole_body/4.jpg,Asian,Normal,Whole body,Normal,Restless,Dry,Dark Yellow,Yellow Tint,Yellowing,Mild yellowing observed in sclera.
+asian_normal_whole_body_5,asian/normal/whole_body/5.jpg,Asian,Normal,Whole body,Irregular,Drowsy,Pale,Dark Yellow,Yellow Tint,Obvious,"Feeding irregular, observe carefully."
+black_jaundiced_eyes_1,black/jaundiced/eyes/1.jpg,Black,Jaundiced,Eyes,Frequent,Restless,Dry,Dark Yellow,Subtle Tint,Yellowing,Mild yellowing observed in sclera.
+black_jaundiced_eyes_2,black/jaundiced/eyes/2.jpg,Black,Jaundiced,Eyes,Normal,Normal,Normal,Yellow,Yellow Tint,Normal,No obvious symptoms noted.
+black_jaundiced_eyes_3,black/jaundiced/eyes/3.jpg,Black,Jaundiced,Eyes,Irregular,Drowsy,Normal,Yellow,Yellow Tint,Slight,Signs of typical physiological jaundice.
+black_jaundiced_eyes_4,black/jaundiced/eyes/4.jpg,Black,Jaundiced,Eyes,Normal,Drowsy,Watery,Clear,Obvious,Yellowing,Mild yellowing observed in sclera.
+black_jaundiced_eyes_5,black/jaundiced/eyes/5.jpg,Black,Jaundiced,Eyes,Frequent,Restless,Dry,Dark Yellow,Normal,Obvious,No obvious symptoms noted.
+black_jaundiced_feet_1,black/jaundiced/feet/1.jpg,Black,Jaundiced,Feet,Normal,Lethargic,Dry,Clear,Normal,Normal,"Feeding irregular, observe carefully."
+black_jaundiced_feet_2,black/jaundiced/feet/2.jpg,Black,Jaundiced,Feet,Normal,Restless,Dry,Brownish,Yellow Tint,Slight,"Feeding irregular, observe carefully."
+black_jaundiced_feet_3,black/jaundiced/feet/3.jpg,Black,Jaundiced,Feet,Frequent,Drowsy,Pale,Dark Yellow,Yellow Tint,Normal,Mild yellowing observed in sclera.
+black_jaundiced_feet_4,black/jaundiced/feet/4.jpg,Black,Jaundiced,Feet,Irregular,Restless,Pale,Brownish,Subtle Tint,Obvious,"Feeding irregular, observe carefully."
+black_jaundiced_feet_5,black/jaundiced/feet/5.jpg,Black,Jaundiced,Feet,Poor,Lethargic,Dry,Clear,Normal,Normal,Pale stool and yellow urine — refer for further check.
+black_jaundiced_gums_1,black/jaundiced/gums/1.jpg,Black,Jaundiced,Gums,Poor,Normal,Normal,Clear,Subtle Tint,Normal,Mild yellowing observed in sclera.
+black_jaundiced_gums_2,black/jaundiced/gums/2.jpg,Black,Jaundiced,Gums,Frequent,Drowsy,Normal,Dark Yellow,Normal,Yellowing,No obvious symptoms noted.
+black_jaundiced_gums_3,black/jaundiced/gums/3.jpg,Black,Jaundiced,Gums,Frequent,Drowsy,Watery,Brownish,Subtle Tint,Slight,"Feeding irregular, observe carefully."
+black_jaundiced_gums_4,black/jaundiced/gums/4.jpg,Black,Jaundiced,Gums,Poor,Drowsy,Normal,Dark Yellow,Yellow Tint,Normal,"Feeding irregular, observe carefully."
+black_jaundiced_gums_5,black/jaundiced/gums/5.jpg,Black,Jaundiced,Gums,Irregular,Normal,Dry,Dark Yellow,Obvious,Obvious,Mild yellowing observed in sclera.
+black_jaundiced_palm_1,black/jaundiced/palm/1.jpg,Black,Jaundiced,Palm,Normal,Normal,Normal,Yellow,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+black_jaundiced_palm_2,black/jaundiced/palm/2.jpg,Black,Jaundiced,Palm,Normal,Normal,Normal,Yellow,Normal,Normal,Pale stool and yellow urine — refer for further check.
+black_jaundiced_palm_3,black/jaundiced/palm/3.jpg,Black,Jaundiced,Palm,Irregular,Lethargic,Dry,Yellow,Subtle Tint,Normal,Signs of typical physiological jaundice.
+black_jaundiced_palm_4,black/jaundiced/palm/4.jpg,Black,Jaundiced,Palm,Frequent,Restless,Pale,Dark Yellow,Normal,Obvious,Mild yellowing observed in sclera.
+black_jaundiced_palm_5,black/jaundiced/palm/5.jpg,Black,Jaundiced,Palm,Poor,Lethargic,Normal,Dark Yellow,Normal,Yellowing,"Feeding irregular, observe carefully."
+black_jaundiced_scalp_1,black/jaundiced/scalp/1.jpg,Black,Jaundiced,Scalp,Normal,Restless,Pale,Dark Yellow,Normal,Yellowing,No obvious symptoms noted.
+black_jaundiced_scalp_2,black/jaundiced/scalp/2.jpg,Black,Jaundiced,Scalp,Poor,Lethargic,Normal,Brownish,Subtle Tint,Normal,No obvious symptoms noted.
+black_jaundiced_scalp_3,black/jaundiced/scalp/3.jpg,Black,Jaundiced,Scalp,Poor,Restless,Pale,Dark Yellow,Normal,Slight,Pale stool and yellow urine — refer for further check.
+black_jaundiced_scalp_4,black/jaundiced/scalp/4.jpg,Black,Jaundiced,Scalp,Poor,Normal,Dry,Dark Yellow,Obvious,Normal,Signs of typical physiological jaundice.
+black_jaundiced_scalp_5,black/jaundiced/scalp/5.jpg,Black,Jaundiced,Scalp,Irregular,Restless,Dry,Brownish,Obvious,Yellowing,Mild yellowing observed in sclera.
+black_jaundiced_skin_1,black/jaundiced/skin/1.jpg,Black,Jaundiced,Skin,Normal,Restless,Dry,Clear,Normal,Yellowing,Mild yellowing observed in sclera.
+black_jaundiced_skin_2,black/jaundiced/skin/2.jpg,Black,Jaundiced,Skin,Normal,Drowsy,Watery,Clear,Yellow Tint,Yellowing,No obvious symptoms noted.
+black_jaundiced_skin_3,black/jaundiced/skin/3.jpg,Black,Jaundiced,Skin,Irregular,Lethargic,Dry,Clear,Obvious,Obvious,"Feeding irregular, observe carefully."
+black_jaundiced_skin_4,black/jaundiced/skin/4.jpg,Black,Jaundiced,Skin,Irregular,Restless,Normal,Yellow,Yellow Tint,Normal,Mild yellowing observed in sclera.
+black_jaundiced_skin_5,black/jaundiced/skin/5.jpg,Black,Jaundiced,Skin,Normal,Restless,Dry,Yellow,Yellow Tint,Normal,Mild yellowing observed in sclera.
+black_jaundiced_stool_samples_1,black/jaundiced/stool_samples/1.jpg,Black,Jaundiced,Stool samples,Normal,Drowsy,Dry,Dark Yellow,Obvious,Normal,"Feeding irregular, observe carefully."
+black_jaundiced_stool_samples_2,black/jaundiced/stool_samples/2.jpg,Black,Jaundiced,Stool samples,Normal,Drowsy,Watery,Brownish,Subtle Tint,Normal,"Feeding irregular, observe carefully."
+black_jaundiced_stool_samples_3,black/jaundiced/stool_samples/3.jpg,Black,Jaundiced,Stool samples,Frequent,Drowsy,Pale,Brownish,Normal,Obvious,No obvious symptoms noted.
+black_jaundiced_stool_samples_4,black/jaundiced/stool_samples/4.jpg,Black,Jaundiced,Stool samples,Irregular,Drowsy,Normal,Yellow,Obvious,Slight,Signs of typical physiological jaundice.
+black_jaundiced_stool_samples_5,black/jaundiced/stool_samples/5.jpg,Black,Jaundiced,Stool samples,Poor,Normal,Pale,Dark Yellow,Yellow Tint,Slight,Signs of typical physiological jaundice.
+black_jaundiced_tongue_1,black/jaundiced/tongue/1.jpg,Black,Jaundiced,Tongue,Normal,Lethargic,Dry,Dark Yellow,Yellow Tint,Slight,Mild yellowing observed in sclera.
+black_jaundiced_tongue_2,black/jaundiced/tongue/2.jpg,Black,Jaundiced,Tongue,Frequent,Restless,Dry,Dark Yellow,Yellow Tint,Normal,"Feeding irregular, observe carefully."
+black_jaundiced_tongue_3,black/jaundiced/tongue/3.jpg,Black,Jaundiced,Tongue,Poor,Normal,Dry,Brownish,Obvious,Obvious,No obvious symptoms noted.
+black_jaundiced_tongue_4,black/jaundiced/tongue/4.jpg,Black,Jaundiced,Tongue,Irregular,Normal,Pale,Clear,Normal,Obvious,Pale stool and yellow urine — refer for further check.
+black_jaundiced_tongue_5,black/jaundiced/tongue/5.jpg,Black,Jaundiced,Tongue,Irregular,Drowsy,Normal,Brownish,Obvious,Obvious,Pale stool and yellow urine — refer for further check.
+black_jaundiced_urine_1,black/jaundiced/urine/1.jpg,Black,Jaundiced,Urine,Normal,Restless,Dry,Brownish,Subtle Tint,Normal,"Feeding irregular, observe carefully."
+black_jaundiced_urine_2,black/jaundiced/urine/2.jpg,Black,Jaundiced,Urine,Irregular,Drowsy,Dry,Brownish,Normal,Obvious,Pale stool and yellow urine — refer for further check.
+black_jaundiced_urine_3,black/jaundiced/urine/3.jpg,Black,Jaundiced,Urine,Normal,Normal,Normal,Clear,Obvious,Obvious,Signs of typical physiological jaundice.
+black_jaundiced_urine_4,black/jaundiced/urine/4.jpg,Black,Jaundiced,Urine,Normal,Lethargic,Pale,Clear,Yellow Tint,Obvious,Signs of typical physiological jaundice.
+black_jaundiced_urine_5,black/jaundiced/urine/5.jpg,Black,Jaundiced,Urine,Irregular,Restless,Pale,Dark Yellow,Normal,Slight,Pale stool and yellow urine — refer for further check.
+black_jaundiced_urine_diapers_1,black/jaundiced/urine_diapers/1.jpg,Black,Jaundiced,Urine diapers,Frequent,Drowsy,Normal,Clear,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+black_jaundiced_urine_diapers_2,black/jaundiced/urine_diapers/2.jpg,Black,Jaundiced,Urine diapers,Frequent,Restless,Normal,Dark Yellow,Subtle Tint,Obvious,Pale stool and yellow urine — refer for further check.
+black_jaundiced_urine_diapers_3,black/jaundiced/urine_diapers/3.jpg,Black,Jaundiced,Urine diapers,Poor,Lethargic,Watery,Clear,Subtle Tint,Normal,Mild yellowing observed in sclera.
+black_jaundiced_urine_diapers_4,black/jaundiced/urine_diapers/4.jpg,Black,Jaundiced,Urine diapers,Normal,Lethargic,Normal,Yellow,Normal,Slight,No obvious symptoms noted.
+black_jaundiced_urine_diapers_5,black/jaundiced/urine_diapers/5.jpg,Black,Jaundiced,Urine diapers,Normal,Drowsy,Pale,Clear,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+black_jaundiced_whole_body_1,black/jaundiced/whole_body/1.jpg,Black,Jaundiced,Whole body,Irregular,Lethargic,Watery,Yellow,Subtle Tint,Yellowing,No obvious symptoms noted.
+black_jaundiced_whole_body_2,black/jaundiced/whole_body/2.jpg,Black,Jaundiced,Whole body,Frequent,Normal,Pale,Yellow,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+black_jaundiced_whole_body_3,black/jaundiced/whole_body/3.jpg,Black,Jaundiced,Whole body,Poor,Normal,Watery,Dark Yellow,Yellow Tint,Normal,Pale stool and yellow urine — refer for further check.
+black_jaundiced_whole_body_4,black/jaundiced/whole_body/4.jpg,Black,Jaundiced,Whole body,Normal,Drowsy,Pale,Clear,Subtle Tint,Yellowing,Mild yellowing observed in sclera.
+black_jaundiced_whole_body_5,black/jaundiced/whole_body/5.jpg,Black,Jaundiced,Whole body,Irregular,Normal,Normal,Yellow,Yellow Tint,Slight,No obvious symptoms noted.
+black_normal_eyes_1,black/normal/eyes/1.jpg,Black,Normal,Eyes,Frequent,Restless,Watery,Dark Yellow,Normal,Obvious,Pale stool and yellow urine — refer for further check.
+black_normal_eyes_2,black/normal/eyes/2.jpg,Black,Normal,Eyes,Normal,Restless,Watery,Clear,Obvious,Yellowing,Pale stool and yellow urine — refer for further check.
+black_normal_eyes_3,black/normal/eyes/3.jpg,Black,Normal,Eyes,Poor,Drowsy,Normal,Dark Yellow,Normal,Slight,Pale stool and yellow urine — refer for further check.
+black_normal_eyes_4,black/normal/eyes/4.jpg,Black,Normal,Eyes,Frequent,Restless,Normal,Yellow,Obvious,Obvious,No obvious symptoms noted.
+black_normal_eyes_5,black/normal/eyes/5.jpg,Black,Normal,Eyes,Frequent,Drowsy,Dry,Clear,Yellow Tint,Obvious,Mild yellowing observed in sclera.
+black_normal_feet_1,black/normal/feet/1.jpg,Black,Normal,Feet,Poor,Restless,Dry,Yellow,Yellow Tint,Obvious,Pale stool and yellow urine — refer for further check.
+black_normal_feet_2,black/normal/feet/2.jpg,Black,Normal,Feet,Poor,Restless,Dry,Clear,Yellow Tint,Yellowing,Signs of typical physiological jaundice.
+black_normal_feet_3,black/normal/feet/3.jpg,Black,Normal,Feet,Irregular,Lethargic,Pale,Yellow,Yellow Tint,Slight,No obvious symptoms noted.
+black_normal_feet_4,black/normal/feet/4.jpg,Black,Normal,Feet,Frequent,Restless,Pale,Yellow,Obvious,Slight,No obvious symptoms noted.
+black_normal_feet_5,black/normal/feet/5.jpg,Black,Normal,Feet,Poor,Normal,Normal,Brownish,Obvious,Yellowing,Signs of typical physiological jaundice.
+black_normal_gums_1,black/normal/gums/1.jpg,Black,Normal,Gums,Poor,Drowsy,Normal,Dark Yellow,Normal,Yellowing,"Feeding irregular, observe carefully."
+black_normal_gums_2,black/normal/gums/2.jpg,Black,Normal,Gums,Irregular,Lethargic,Pale,Clear,Yellow Tint,Slight,"Feeding irregular, observe carefully."
+black_normal_gums_3,black/normal/gums/3.jpg,Black,Normal,Gums,Poor,Normal,Watery,Brownish,Yellow Tint,Normal,"Feeding irregular, observe carefully."
+black_normal_gums_4,black/normal/gums/4.jpg,Black,Normal,Gums,Frequent,Drowsy,Watery,Brownish,Yellow Tint,Obvious,"Feeding irregular, observe carefully."
+black_normal_gums_5,black/normal/gums/5.jpg,Black,Normal,Gums,Poor,Normal,Normal,Dark Yellow,Subtle Tint,Yellowing,Mild yellowing observed in sclera.
+black_normal_palm_1,black/normal/palm/1.jpg,Black,Normal,Palm,Frequent,Normal,Dry,Brownish,Yellow Tint,Yellowing,Signs of typical physiological jaundice.
+black_normal_palm_2,black/normal/palm/2.jpg,Black,Normal,Palm,Frequent,Restless,Dry,Brownish,Subtle Tint,Slight,"Feeding irregular, observe carefully."
+black_normal_palm_3,black/normal/palm/3.jpg,Black,Normal,Palm,Irregular,Normal,Normal,Yellow,Subtle Tint,Slight,"Feeding irregular, observe carefully."
+black_normal_palm_4,black/normal/palm/4.jpg,Black,Normal,Palm,Frequent,Lethargic,Normal,Clear,Yellow Tint,Yellowing,Signs of typical physiological jaundice.
+black_normal_palm_5,black/normal/palm/5.jpg,Black,Normal,Palm,Normal,Restless,Pale,Clear,Normal,Obvious,No obvious symptoms noted.
+black_normal_scalp_1,black/normal/scalp/1.jpg,Black,Normal,Scalp,Normal,Drowsy,Normal,Brownish,Normal,Normal,Signs of typical physiological jaundice.
+black_normal_scalp_2,black/normal/scalp/2.jpg,Black,Normal,Scalp,Irregular,Normal,Pale,Brownish,Yellow Tint,Slight,No obvious symptoms noted.
+black_normal_scalp_3,black/normal/scalp/3.jpg,Black,Normal,Scalp,Poor,Restless,Pale,Clear,Yellow Tint,Yellowing,Mild yellowing observed in sclera.
+black_normal_scalp_4,black/normal/scalp/4.jpg,Black,Normal,Scalp,Frequent,Restless,Normal,Yellow,Subtle Tint,Normal,Pale stool and yellow urine — refer for further check.
+black_normal_scalp_5,black/normal/scalp/5.jpg,Black,Normal,Scalp,Frequent,Normal,Normal,Clear,Yellow Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+black_normal_skin_1,black/normal/skin/1.jpg,Black,Normal,Skin,Irregular,Restless,Dry,Dark Yellow,Obvious,Obvious,"Feeding irregular, observe carefully."
+black_normal_skin_2,black/normal/skin/2.jpg,Black,Normal,Skin,Poor,Lethargic,Normal,Clear,Subtle Tint,Slight,No obvious symptoms noted.
+black_normal_skin_3,black/normal/skin/3.jpg,Black,Normal,Skin,Irregular,Lethargic,Watery,Brownish,Normal,Yellowing,Pale stool and yellow urine — refer for further check.
+black_normal_skin_4,black/normal/skin/4.jpg,Black,Normal,Skin,Frequent,Normal,Watery,Dark Yellow,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+black_normal_skin_5,black/normal/skin/5.jpg,Black,Normal,Skin,Normal,Drowsy,Pale,Yellow,Obvious,Yellowing,No obvious symptoms noted.
+black_normal_stool_samples_1,black/normal/stool_samples/1.jpg,Black,Normal,Stool samples,Poor,Restless,Dry,Clear,Subtle Tint,Obvious,Mild yellowing observed in sclera.
+black_normal_stool_samples_2,black/normal/stool_samples/2.jpg,Black,Normal,Stool samples,Irregular,Lethargic,Watery,Clear,Yellow Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+black_normal_stool_samples_3,black/normal/stool_samples/3.jpg,Black,Normal,Stool samples,Poor,Normal,Normal,Brownish,Yellow Tint,Normal,No obvious symptoms noted.
+black_normal_stool_samples_4,black/normal/stool_samples/4.jpg,Black,Normal,Stool samples,Poor,Restless,Watery,Yellow,Normal,Normal,Signs of typical physiological jaundice.
+black_normal_stool_samples_5,black/normal/stool_samples/5.jpg,Black,Normal,Stool samples,Normal,Normal,Dry,Yellow,Yellow Tint,Obvious,Mild yellowing observed in sclera.
+black_normal_tongue_1,black/normal/tongue/1.jpg,Black,Normal,Tongue,Normal,Lethargic,Dry,Clear,Subtle Tint,Yellowing,Pale stool and yellow urine — refer for further check.
+black_normal_tongue_2,black/normal/tongue/2.jpg,Black,Normal,Tongue,Frequent,Normal,Normal,Yellow,Yellow Tint,Obvious,Mild yellowing observed in sclera.
+black_normal_tongue_3,black/normal/tongue/3.jpg,Black,Normal,Tongue,Frequent,Drowsy,Normal,Dark Yellow,Yellow Tint,Slight,Pale stool and yellow urine — refer for further check.
+black_normal_tongue_4,black/normal/tongue/4.jpg,Black,Normal,Tongue,Normal,Normal,Pale,Yellow,Subtle Tint,Normal,Pale stool and yellow urine — refer for further check.
+black_normal_tongue_5,black/normal/tongue/5.jpg,Black,Normal,Tongue,Irregular,Drowsy,Watery,Dark Yellow,Normal,Normal,Mild yellowing observed in sclera.
+black_normal_urine_1,black/normal/urine/1.jpg,Black,Normal,Urine,Normal,Restless,Pale,Brownish,Normal,Normal,Mild yellowing observed in sclera.
+black_normal_urine_2,black/normal/urine/2.jpg,Black,Normal,Urine,Irregular,Normal,Watery,Brownish,Normal,Obvious,Mild yellowing observed in sclera.
+black_normal_urine_3,black/normal/urine/3.jpg,Black,Normal,Urine,Frequent,Normal,Normal,Yellow,Subtle Tint,Yellowing,Mild yellowing observed in sclera.
+black_normal_urine_4,black/normal/urine/4.jpg,Black,Normal,Urine,Frequent,Drowsy,Normal,Brownish,Normal,Slight,No obvious symptoms noted.
+black_normal_urine_5,black/normal/urine/5.jpg,Black,Normal,Urine,Poor,Restless,Watery,Clear,Obvious,Yellowing,Pale stool and yellow urine — refer for further check.
+black_normal_urine_diapers_1,black/normal/urine_diapers/1.jpg,Black,Normal,Urine diapers,Frequent,Restless,Normal,Yellow,Obvious,Yellowing,"Feeding irregular, observe carefully."
+black_normal_urine_diapers_2,black/normal/urine_diapers/2.jpg,Black,Normal,Urine diapers,Frequent,Restless,Pale,Clear,Obvious,Slight,No obvious symptoms noted.
+black_normal_urine_diapers_3,black/normal/urine_diapers/3.jpg,Black,Normal,Urine diapers,Normal,Lethargic,Dry,Dark Yellow,Obvious,Normal,"Feeding irregular, observe carefully."
+black_normal_urine_diapers_4,black/normal/urine_diapers/4.jpg,Black,Normal,Urine diapers,Normal,Drowsy,Pale,Yellow,Subtle Tint,Normal,No obvious symptoms noted.
+black_normal_urine_diapers_5,black/normal/urine_diapers/5.jpg,Black,Normal,Urine diapers,Irregular,Drowsy,Watery,Yellow,Obvious,Obvious,Pale stool and yellow urine — refer for further check.
+black_normal_whole_body_1,black/normal/whole_body/1.jpg,Black,Normal,Whole body,Normal,Normal,Watery,Clear,Yellow Tint,Normal,Signs of typical physiological jaundice.
+black_normal_whole_body_2,black/normal/whole_body/2.jpg,Black,Normal,Whole body,Irregular,Drowsy,Pale,Clear,Subtle Tint,Slight,Mild yellowing observed in sclera.
+black_normal_whole_body_3,black/normal/whole_body/3.jpg,Black,Normal,Whole body,Normal,Drowsy,Watery,Dark Yellow,Normal,Obvious,No obvious symptoms noted.
+black_normal_whole_body_4,black/normal/whole_body/4.jpg,Black,Normal,Whole body,Poor,Lethargic,Dry,Dark Yellow,Subtle Tint,Normal,Mild yellowing observed in sclera.
+black_normal_whole_body_5,black/normal/whole_body/5.jpg,Black,Normal,Whole body,Frequent,Restless,Dry,Yellow,Yellow Tint,Yellowing,Signs of typical physiological jaundice.

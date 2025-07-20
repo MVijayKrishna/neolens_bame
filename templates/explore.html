@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Explore Cases | NeoLens{% endblock %}
+
+{% block content %}
+<style>
+  body {
+    background-color: #111827;
+    color: #f1f1f1;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .explore-header {
+    padding: 3rem 1rem 1rem;
+    text-align: center;
+  }
+
+  .explore-header h1 {
+    font-weight: 700;
+    color: #facc15;
+  }
+
+  .explore-header p {
+    color: #9ca3af;
+  }
+
+  .btn-back-home {
+    border: 1px solid #6b7280;
+    color: #d1d5db;
+    padding: 0.4rem 1.2rem;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  .btn-back-home:hover {
+    background-color: #1f2937;
+  }
+
+  .filter-form .form-label {
+    color: #d1d5db;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+
+  .filter-form .form-select,
+  .filter-form .form-control {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: #f1f1f1;
+    border-radius: 8px;
+  }
+
+  .filter-form .btn-warning {
+    background-color: #fbbf24;
+    color: #000;
+    padding: 0.6rem 2rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: 0.3s ease;
+  }
+
+  .filter-form .btn-warning:hover {
+    background-color: #fde68a;
+  }
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 2rem 2rem;
+  }
+
+  .video-card {
+    background-color: #1f2937;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .video-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+  }
+
+  .video-thumbnail {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .video-info {
+    padding: 1rem;
+  }
+
+  .video-info h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #facc15;
+  }
+
+  .video-info p {
+    font-size: 0.875rem;
+    color: #d1d5db;
+    margin: 0.2rem 0;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #0f172a;
+    color: #9ca3af;
+    font-size: 0.9rem;
+  }
+</style>
+
+<!-- Header -->
+<header class="explore-header">
+  <h1 class="text-warning">Explore Jaundice Cases</h1>
+  <p>Browse a curated set of training cases below</p>
+  <a href="{% url 'home' %}" class="btn-back-home mt-3 d-inline-block">← Back to Home</a>
+</header>
+
+<!-- Filter Form -->
+<div class="container mt-4">
+  <form method="GET" class="row g-3 align-items-end filter-form">
+
+    <div class="col-md-3">
+      <label for="ethnicity" class="form-label">Ethnicity</label>
+      <select name="ethnicity" id="ethnicity" class="form-select">
+        <option value="">All Ethnicities</option>
+        <option value="Black" {% if request.GET.ethnicity == "Black" %}selected{% endif %}>Black</option>
+        <option value="Asian" {% if request.GET.ethnicity == "Asian" %}selected{% endif %}>Asian</option>
+        <option value="Mixed" {% if request.GET.ethnicity == "Mixed" %}selected{% endif %}>Mixed</option>
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <label for="region" class="form-label">Region</label>
+      <select name="region" id="region" class="form-select">
+        <option value="">All Regions</option>
+        {% for r in region_list %}
+          <option value="{{ r }}" {% if request.GET.region == r %}selected{% endif %}>{{ r }}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <label for="feeding" class="form-label">Feeding Pattern</label>
+      <select name="feeding" id="feeding" class="form-select">
+        <option value="">Any</option>
+        <option value="Normal" {% if request.GET.feeding == "Normal" %}selected{% endif %}>Normal</option>
+        <option value="Poor" {% if request.GET.feeding == "Poor" %}selected{% endif %}>Poor</option>
+        <option value="Frequent" {% if request.GET.feeding == "Frequent" %}selected{% endif %}>Frequent</option>
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <label for="search" class="form-label">Search Notes</label>
+      <input type="text" name="q" id="search" class="form-control" placeholder="e.g., yellow tongue" value="{{ request.GET.q }}">
+    </div>
+
+    <div class="col-12 text-end">
+      <button type="submit" class="btn btn-warning">Apply Filters</button>
+    </div>
+  </form>
+</div>
+
+<!-- Cases Grid -->
+<section class="video-grid">
+  {% for case in cases %}
+  <a href="{% url 'case_detail' case.id %}" class="video-card">
+    <img src="{{ case.image.url }}" alt="Case image" class="video-thumbnail">
+    <div class="video-info">
+      <h5>{{ case.ethnicity }} – {{ case.region|capfirst }}</h5>
+      <p>Condition: {{ case.condition|capfirst }}</p>
+      <p>Feeding: {{ case.feeding_pattern }}</p>
+      <p>Skin: {{ case.skin_color }}</p>
+    </div>
+  </a>
+  {% empty %}
+  <div class="text-center text-muted w-100 py-5">
+    <p>No matching cases found. Try different filters.</p>
+  </div>
+  {% endfor %}
+</section>
+
+<footer>
+  © 2025 NeoLens. All rights reserved.
+</footer>
+{% endblock %}

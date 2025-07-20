@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Jaundice Checker | NeoLens{% endblock %}
+
+{% block content %}
+<style>
+  .checker-container {
+    background-color: #0f172a;
+    color: #f1f1f1;
+    padding: 4rem 1rem;
+    text-align: center;
+  }
+
+  .checker-container h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #facc15;
+    margin-bottom: 1rem;
+  }
+
+  .checker-container p {
+    color: #9ca3af;
+    margin-bottom: 2rem;
+  }
+
+  .upload-box {
+    background-color: #1f2937;
+    border: 2px dashed #374151;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    transition: border 0.3s ease;
+  }
+
+  .upload-box:hover {
+    border-color: #fbbf24;
+  }
+
+  .form-control-file {
+    background: none;
+    border: none;
+    color: #f1f1f1;
+    margin-top: 1rem;
+  }
+
+  .preview {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .preview img {
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  .btn-check {
+    background-color: #facc15;
+    color: #1e293b;
+    font-weight: 600;
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 999px;
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+  }
+
+  .btn-check:hover {
+    background-color: #fde68a;
+    transform: translateY(-2px);
+  }
+
+  .result-box {
+    margin-top: 3rem;
+    background-color: #1f2937;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .result-box h3 {
+    color: #fbbf24;
+    margin-bottom: 1rem;
+  }
+
+  .result-box p {
+    color: #d1d5db;
+  }
+</style>
+
+<div class="checker-container">
+  <h1>AI-Assisted Jaundice Checker</h1>
+  <p>Upload a newborn image to analyze jaundice presence</p>
+
+  <form method="POST" enctype="multipart/form-data" class="upload-box">
+    {% csrf_token %}
+    <input type="file" name="image" id="imageInput" accept="image/*" class="form-control-file">
+    <button type="submit" class="btn btn-check">Check Image</button>
+
+    <!-- Optional image preview -->
+    {% if uploaded_image_url %}
+    <div class="preview mt-4">
+      <img src="{{ uploaded_image_url }}" alt="Uploaded Image">
+    </div>
+    {% endif %}
+  </form>
+
+  {% if prediction %}
+  <div class="result-box">
+    <h3>Result</h3>
+    <p><strong>Likelihood of Jaundice:</strong> {{ prediction.score }}%</p>
+    <p><strong>Detected Region:</strong> {{ prediction.region|capfirst }}</p>
+    <p><strong>Notes:</strong> {{ prediction.notes }}</p>
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

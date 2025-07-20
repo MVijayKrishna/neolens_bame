@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Welcome to NeoLens{% endblock %}
+
+{% block content %}
+<style>
+  .hero-section {
+    background-image: url("{% static 'images/clipboard-medical-desk.jpg' %}");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000407;
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  
+</style>
+
+<div class="hero-section shadow">
+  <div class="text-center">
+    <h1 class="display-4 fw-bold">Welcome to NeoLens</h1>
+    <p class="lead">Empowering visual diagnosis of neonatal jaundice in diverse skin tones.</p>
+    <a href="{% url 'jaundice_check' %}" class="btn btn-primary btn-lg mt-3">🩺 Start Screening</a>
+  </div>
+</div>
+{% endblock %}

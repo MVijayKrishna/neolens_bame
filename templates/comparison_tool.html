@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Visual Comparison Tool | NeoLens{% endblock %}
+
+{% block content %}
+<style>
+  body {
+    background-color: #121820;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h2 {
+    font-weight: 600;
+    color: #facc15;
+  }
+
+  .comparison-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 3rem 1rem;
+  }
+
+  .custom-form label {
+    color: #cbd5e1;
+    font-weight: 500;
+  }
+
+  .form-control,
+  .form-select {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+    color: #f1f5f9;
+  }
+
+  .form-control::placeholder {
+    color: #94a3b8;
+  }
+
+  .btn-warning {
+    background-color: #facc15;
+    color: #111827;
+    border: none;
+    font-weight: 500;
+  }
+
+  .btn-outline-light {
+    border-color: #facc15;
+    color: #facc15;
+  }
+
+  .btn-outline-light:hover {
+    background-color: #facc15;
+    color: #1f2937;
+  }
+
+  .compare-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .compare-box {
+    flex: 1 1 45%;
+    max-width: 500px;
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    text-align: center;
+  }
+
+  .compare-box h5 {
+    color: #facc15;
+    margin-bottom: 1rem;
+  }
+
+  .zoom-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #334155;
+    height: 360px;
+  }
+
+  .compare-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: grab;
+  }
+
+  .overlay-tint {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(255, 255, 100, 0.3);
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    display: none;
+  }
+
+  .show-overlay .overlay-tint {
+    display: block;
+  }
+
+  .action-buttons {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .back-btn {
+    color: #facc15;
+    font-size: 0.95rem;
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .compare-row {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<div class="comparison-container">
+  <h2 class="text-center mb-4">NeoLens Visual Comparison Tool</h2>
+
+  <form method="POST" enctype="multipart/form-data" class="row g-4 justify-content-center custom-form">
+    {% csrf_token %}
+    <div class="col-md-5">
+      <label for="image1" class="form-label">Upload Jaundiced Image</label>
+      <input type="file" class="form-control" name="image1" accept="image/*" required>
+    </div>
+    <div class="col-md-5">
+      <label for="image2" class="form-label">Upload Non-Jaundiced Image</label>
+      <input type="file" class="form-control" name="image2" accept="image/*" required>
+    </div>
+    <div class="col-12 text-center mt-3">
+      <button type="submit" class="btn btn-warning px-5">Compare</button>
+    </div>
+  </form>
+
+  {% if image1_url and image2_url %}
+  <div class="action-buttons">
+    <button class="btn btn-outline-light me-3" onclick="toggleOverlay()">Highlight Yellow Tint</button>
+    <button class="btn btn-outline-light" onclick="resetZoom()">Reset Zoom</button>
+  </div>
+
+  <div class="compare-row mt-4">
+    <div class="compare-box">
+      <h5>Jaundiced</h5>
+      <div class="zoom-container">
+        <img src="{{ image1_url }}" class="compare-img" alt="Jaundiced Image">
+        <div class="overlay-tint"></div>
+      </div>
+    </div>
+    <div class="compare-box">
+      <h5>Non-Jaundiced</h5>
+      <div class="zoom-container">
+        <img src="{{ image2_url }}" class="compare-img" alt="Non-Jaundiced Image">
+        <div class="overlay-tint"></div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="text-center mt-5">
+    <a href="{% url 'home' %}" class="back-btn">← Back to Home</a>
+  </div>
+</div>
+
+<!-- Zoom Library -->
+<script src="https://unpkg.com/@panzoom/panzoom@4.5.1/dist/panzoom.min.js"></script>
+<script>
+  let panzoomInstances = [];
+
+  function toggleOverlay() {
+    document.querySelectorAll('.zoom-container').forEach(container => {
+      container.classList.toggle('show-overlay');
+    });
+  }
+
+  function resetZoom() {
+    panzoomInstances.forEach(pz => pz.reset());
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".zoom-container img").forEach(img => {
+      const pz = Panzoom(img, {
+        maxScale: 4,
+        minScale: 1,
+        contain: 'outside'
+      });
+      img.parentElement.addEventListener('wheel', pz.zoomWithWheel);
+      panzoomInstances.push(pz);
+    });
+  });
+</script>
+{% endblock %}
