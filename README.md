@@ -1,0 +1,1 @@
+Please don’t commit directly to the master branch. Instead, create feature branches for each task, and work on them separately. Once the task is complete, feel free to send me a pull request — I’ll handle merging it into the master branch.
